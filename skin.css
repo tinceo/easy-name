@@ -1,1 +1,139 @@
+.controller.custom {
+    background: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/base.png) no-repeat top center;
+    background-size: 750px 466px;
+    height: 466px;
+    width: 750px;
+    position: relative;
+}
 
+.controller.custom.half {
+    margin-top: 466px !important;
+}
+
+.custom .triggers,
+.custom .bumpers,
+.custom .abxy,
+.custom .sticks,
+.custom .dpad,
+.custom .arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 466px;
+}
+
+.custom .trigger,
+.custom .bumper,
+.custom .button,
+.custom .stick,
+.custom .face,
+.custom .back,
+.custom .start {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 466px;
+    background-size: 750px 466px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    opacity: 0;
+}
+
+.custom .trigger.pressed,
+.custom .bumper.pressed,
+.custom .button.pressed,
+.custom .stick.pressed,
+.custom .face.pressed,
+.custom .back.pressed,
+.custom .start.pressed {
+    opacity: 1;
+}
+
+/* Triggers */
+.custom .trigger.left {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/lt.png);
+}
+
+.custom .trigger.right {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/rt.png);
+}
+
+/* Bumpers */
+.custom .bumper.left {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/lb.png);
+}
+
+.custom .bumper.right {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/rb.png);
+}
+
+/* ABXY */
+.custom .a {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/a.png);
+}
+
+.custom .b {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/b.png);
+}
+
+.custom .x {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/x.png);
+}
+
+.custom .y {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/y.png);
+}
+
+/* Sticks */
+.custom .stick.left {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/ls.png);
+    opacity: 1;
+}
+
+.custom .stick.right {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/rs.png);
+    opacity: 1;
+}
+
+.custom .stick.pressed.left {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/l3.png);
+}
+
+.custom .stick.pressed.right {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/r3.png);
+}
+
+/* Dpad */
+.custom .face.up {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/up.png);
+}
+
+.custom .face.down {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/down.png);
+}
+
+.custom .face.left {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/left.png);
+}
+
+.custom .face.right {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/right.png);
+}
+
+/* Back/Start */
+.custom .back {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/select.png);
+    float: none;
+}
+
+.custom .start {
+    background-image: url(https://YOURUSERNAME.github.io/YOURREPONAME/assets/start.png);
+    float: none;
+}
+
+.custom .back.pressed,
+.custom .start.pressed {
+    opacity: 1;
+}
